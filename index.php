@@ -1,10 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha loja</title>
+</head>
+<body>
+<form method="POST" action="">
+
+<label>Usuário: </label>
+<input type="text" name="usuario" placeholder="digite o usuário" required><br><br>
+
+<label>Senha: </label>
+<input type="password" name="senha_usuario" placeholder="digite a senha" required><br><br>
+
+<input type="submit" name="Sendlogin" value="Acessar">
+</form>    
+
 <?php
 
 // Configurações do banco de dados
 $host = 'localhost';
 $user = 'root'; // usuário padrão do XAMPP
 $password = ''; // senha padrão do XAMPP (vazia)
-$database = 'login'; // substitua pelo nome do seu banco de dados
+$database = 'loginatelie'; // substitua pelo nome do seu banco de dados
+
 
 // Conectar ao banco de dados
 $conn = new mysqli($host, $user, $password, $database);
@@ -49,3 +69,9 @@ if (!empty($dados["Sendlogin"])) {
 }
 
 ?>
+
+?>
+
+</body>
+</html>
+
