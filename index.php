@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Minha loja</title>
 </head>
 <body>
+<header>
+    <h1>Ateliê do Sabor</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Nossos produtos</a>
+      <a href="#">Nos contate</a>
+    </nav>
+  </header>
+  <main>
+    <section class="inicio">
+      <h2>Bem-vindo à Doces & Cia!</h2>
+      <p>Aqui você encontra os doces mais deliciosos e fresquinhos para adoçar seu dia.</p>
+    </section>
+  </main>
+  
+  <script src="home.js"></script>
+
 <form method="POST" action="">
 
 <label>Usuário: </label>
@@ -16,7 +34,10 @@
 
 <input type="submit" name="Sendlogin" value="Acessar">
 </form>    
-
+<footer>
+    &copy; 2025 Ateliê do Sabor. Todos os direitos reservados.
+  </footer>
+  
 <?php
 
 // Configurações do banco de dados
@@ -24,7 +45,6 @@ $host = 'localhost';
 $user = 'root'; // usuário padrão do XAMPP
 $password = ''; // senha padrão do XAMPP (vazia)
 $database = 'loginatelie'; // substitua pelo nome do seu banco de dados
-
 
 // Conectar ao banco de dados
 $conn = new mysqli($host, $user, $password, $database);
@@ -69,9 +89,6 @@ if (!empty($dados["Sendlogin"])) {
 }
 
 ?>
-
-?>
-
 </body>
 </html>
 
