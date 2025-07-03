@@ -22,8 +22,8 @@
     </header>
     <section id="home" class="hero">
         <div class="hero-content">
-            <h2>Bem-vindo ao Ateliê do Sabor!</h2>
-            <p>Uma loja cheia de sabor e carinho, onde você encontra os melhores doces da cidade.</p>
+        <h2>Bem-vindo ao Ateliê do Sabor!</h2>
+        <p>Uma loja cheia de sabor e carinho, onde você encontra os melhores doces da cidade.</p>
         </div>
     </section>
     <section id="sobre" class="sobre">

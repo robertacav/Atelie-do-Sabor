@@ -62,7 +62,7 @@
                     $_SESSION['id'] = $row_usuario['id'];
                     $_SESSION['usuario'] = $dados["usuario"];
 
-                    header("Location: dashboard.php"); // redireciona para página restrita
+                    header("Location: home.php"); // redireciona para página restrita
                     exit();
                 } else {
                     echo "<p class='erro'>Erro: Senha incorreta!</p>";

@@ -1,14 +1,13 @@
-/* Estilização do corpo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fce0e0; /* Cor de fundo rosa claro */
+    background-color: #fce0e0;
 }
 
-/* Estilização do cabeçalho */
 header {
-    background-color: #8e4b35; /* Marrom escuro */
+    text-align: center;
+    background-color: #8e4b35;
     padding: 15px;
 }
 
@@ -35,33 +34,24 @@ header .navbar a {
     font-size: 18px;
 }
 
-/* Seção hero */
 .hero {
-    background-color: #d7a7a7; /* Rosa médio */
-    padding: 60px 0;
-    text-align: center;
+    margin-top: -30px;
+    background-color: white;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .hero h2 {
     font-size: 36px;
-    color: #8e4b35; /* Marrom escuro */
-}
-
-.hero p {
-    font-size: 18px;
     color: #8e4b35;
 }
 
-.hero .btn {
-    background-color: #8e4b35; 
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.hero .btn:hover {
-    background-color: #a65d3b;
+.hero p {
+    font-size: 20px;
+    color: #29211f;
 }
 
 .sobre {
@@ -80,7 +70,7 @@ header .navbar a {
 
 .sobre h2 {
     font-size: 32px;
-    color: #8e4b35; 
+    color: #8e4b35;
     margin-bottom: 20px;
 }
 
@@ -89,8 +79,9 @@ header .navbar a {
     color: #555;
     line-height: 1.6;
 }
+
 footer {
-    background-color: #8e4b35; 
+    background-color: #8e4b35;
     color: white;
     text-align: center;
     padding: 15px;
