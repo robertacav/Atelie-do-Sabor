@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #fce0e0;
+    background-color: #f9bebe;
     color: #4d2c2c;
 }
 
@@ -11,7 +11,7 @@ body {
     margin: 60px auto;
     padding: 30px;
     background-color: #fce0e0;
-    border: 2px solid #e5bfa2;
+    border: 2px solid #844f26;
     border-radius: 12px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     text-align: center;
